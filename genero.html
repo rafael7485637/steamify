@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Streamify Filmes</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/index.html"><img src="/img/logo.png" alt="Logo Streamify"></a>
+      </div>
+      <div class="button">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/filmes.html">Filmes</a></li>
+          <li><a href="/genero.html">Gêneros</a></li>
+        </ul>
+      </div>
+      <div class="barrapesquisa">
+        <input type="text" placeholder="Pesquisar">
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+  </header>
+
+
+  
+<h2>Ação</h2>
+<section class="conteiner conteinerdest cards-wrapper">
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg');">
+    <div class="card-info">
+      <h3>John Wick 4: Baba Yaga</h3>
+      <p><strong>Lançamento:</strong> 23/03/2023</p>
+      <p>John Wick enfrenta a Alta Cúpula em uma luta mortal por sua liberdade.</p>
+      <h6>Principais atores</h6>
+      <p>Keanu Reeves, Donnie Yen, Bill Skarsgård, Laurence Fishburne</p>
+      <h6>Diretor</h6>
+      <p>Chad Stahelski</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/3N6GgdLnu3XbH0e1HE3P2D8Vd9Q.jpg');">
+    <div class="card-info">
+      <h3>Resgate 2</h3>
+      <p><strong>Lançamento:</strong> 16/06/2023</p>
+      <p>Tyler Rake retorna para uma nova missão perigosa de resgate na Geórgia.</p>
+      <h6>Principais atores</h6>
+      <p>Chris Hemsworth, Golshifteh Farahani, Adam Bessa, Tornike Gogrichiani</p>
+      <h6>Diretor</h6>
+      <p>Sam Hargrave</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/aO6xjRbP0LIdD7r4y0QWnF2a1RR.jpg');">
+    <div class="card-info">
+      <h3>The Night Agent</h3>
+      <p><strong>Lançamento:</strong> 23/03/2023</p>
+      <p>Um agente do FBI se envolve em uma conspiração dentro da Casa Branca.</p>
+      <h6>Principais atores</h6>
+      <p>Gabriel Basso, Luciane Buchanan, Hong Chau, Fola Evans-Akingbola</p>
+      <h6>Diretor</h6>
+      <p>Seth Gordon</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/hE5hzibucPBd1wORZUVhNDi85Ky.jpg');">
+    <div class="card-info">
+      <h3>Reacher</h3>
+      <p><strong>Lançamento:</strong> 04/02/2022</p>
+      <p>O ex-policial militar Jack Reacher é preso injustamente e se envolve em uma conspiração mortal.</p>
+      <h6>Principais atores</h6>
+      <p>Alan Ritchson, Malcolm Goodwin, Willa Fitzgerald, Hugh Thompson</p>
+      <h6>Diretor</h6>
+      <p>Nick Santora</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/kHlX3oqdD4VGaLpB8O78M25KfdS.jpg');">
+    <div class="card-info">
+      <h3>Invasão Secreta</h3>
+      <p><strong>Lançamento:</strong> 21/06/2023</p>
+      <p>Nick Fury descobre uma invasão secreta de Skrulls infiltrados na Terra.</p>
+      <h6>Principais atores</h6>
+      <p>Samuel L. Jackson, Ben Mendelsohn, Emilia Clarke, Olivia Colman</p>
+      <h6>Diretor</h6>
+      <p>Ali Selim</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/5Eip60UDiPLASyKjmHPMruggTc4.jpg');">
+    <div class="card-info">
+      <h3>Cidade de Deus: A Série</h3>
+      <p><strong>Lançamento:</strong> 2024 (previsto)</p>
+      <p>Continuação do icônico filme, agora acompanhando a nova geração da Cidade de Deus.</p>
+      <h6>Principais atores</h6>
+      <p>Edson Oliveira, Eli Ferreira, Luellem de Castro, Roberta Rodrigues</p>
+      <h6>Diretor</h6>
+      <p>Sérgio Machado</p>
+    </div>
+    <span class="idade-tag" id="mais18">+18</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/b9UCfDzwiWw7mIFsIQR9ZJUeh7q.jpg');">
+    <div class="card-info">
+      <h3>Operação Hunt</h3>
+      <p><strong>Lançamento:</strong> 10/08/2022</p>
+      <p>Dois agentes sul-coreanos investigam uma possível conspiração e se enfrentam.</p>
+      <h6>Principais atores</h6>
+      <p>Lee Jung-jae, Jung Woo-sung, Jeon Hye-jin, Heo Sung-tae</p>
+      <h6>Diretor</h6>
+      <p>Lee Jung-jae</p>
+    </div>
+    <span class="idade-tag" id="mais18">+18</span>
+  </div>
+
+</section>
+
+
+
+
+
+<h2>Comédia</h2>
+<section class="conteiner conteinerdest cards-wrapper">
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg');">
+    <div class="card-info">
+      <h3>O Plano Eram Três</h3>
+      <p><strong>Lançamento:</strong> 14/03/2024</p>
+      <p>Três amigos se metem em confusão tentando se vingar de um ex-namorado abusivo.</p>
+      <h6>Principais atores</h6>
+      <p>Rafael Infante, Thati Lopes, Manu Gavassi, Felipe Abib</p>
+      <h6>Diretor</h6>
+      <p>Guilherme Fiúza Zenha</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/qjhahNLSZ705B5JP92YMEYPocPz.jpg');">
+    <div class="card-info">
+      <h3>Não! Não Olhe!</h3>
+      <p><strong>Lançamento:</strong> 21/07/2022</p>
+      <p>Dois irmãos descobrem algo sinistro nos céus enquanto tentam registrar tudo em vídeo.</p>
+      <h6>Principais atores</h6>
+      <p>Daniel Kaluuya, Keke Palmer, Steven Yeun, Brandon Perea</p>
+      <h6>Diretor</h6>
+      <p>Jordan Peele</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg');">
+    <div class="card-info">
+      <h3>Glass Onion: Um Mistério Knives Out</h3>
+      <p><strong>Lançamento:</strong> 23/12/2022</p>
+      <p>O detetive Benoit Blanc investiga um novo caso em uma ilha grega cheia de personagens excêntricos.</p>
+      <h6>Principais atores</h6>
+      <p>Daniel Craig, Edward Norton, Janelle Monáe, Kate Hudson</p>
+      <h6>Diretor</h6>
+      <p>Rian Johnson</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/e3IecHQc2C1As2MmcGEI1NvW0OY.jpg');">
+    <div class="card-info">
+      <h3>Brooklyn Nine-Nine</h3>
+      <p><strong>Lançamento:</strong> 17/09/2013</p>
+      <p>Um grupo de detetives de uma delegacia do Brooklyn enfrenta crimes com muito bom humor.</p>
+      <h6>Principais atores</h6>
+      <p>Andy Samberg, Terry Crews, Stephanie Beatriz, Andre Braugher</p>
+      <h6>Diretor</h6>
+      <p>Dan Goor</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/vn94LlNrbUwOY7bts1efc8fM7wh.jpg');">
+    <div class="card-info">
+      <h3>Red: Crescer é uma Fera</h3>
+      <p><strong>Lançamento:</strong> 10/03/2022</p>
+      <p>Uma adolescente começa a se transformar em um panda vermelho gigante sempre que se emociona demais.</p>
+      <h6>Principais atores</h6>
+      <p>Rosalie Chiang, Sandra Oh, Ava Morse, Maitreyi Ramakrishnan</p>
+      <h6>Diretor</h6>
+      <p>Domee Shi</p>
+    </div>
+    <span class="idade-tag" id="livre">L</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/aZwc4odf6J8GQEmtFJOz0AGWgRo.jpg');">
+    <div class="card-info">
+      <h3>Emily em Paris</h3>
+      <p><strong>Lançamento:</strong> 02/10/2020</p>
+      <p>Uma jovem americana se muda para Paris em busca de trabalho e acaba vivendo situações hilárias.</p>
+      <h6>Principais atores</h6>
+      <p>Lily Collins, Philippine Leroy-Beaulieu, Ashley Park, Lucas Bravo</p>
+      <h6>Diretor</h6>
+      <p>Darren Star</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/fnUxP9z0vFCxVqjOaD92UYjr5Vl.jpg');">
+    <div class="card-info">
+      <h3>Depois do Universo</h3>
+      <p><strong>Lançamento:</strong> 27/10/2022</p>
+      <p>Uma jovem pianista e um médico se conhecem por acaso e vivem uma história com drama e toques de comédia romântica.</p>
+      <h6>Principais atores</h6>
+      <p>Giulia Be, Henry Zaga, Laila Garin, João Miguel</p>
+      <h6>Diretor</h6>
+      <p>Diego Freitas</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+</section>
+
+
+
+
+
+<h2>Terror</h2>
+<section class="conteiner conteinerdest cards-wrapper">
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/8I37NtDffNV7AZlDa7uDvv8fTi3.jpg');">
+    <div class="card-info">
+      <h3>O Exorcista do Papa</h3>
+      <p><strong>Lançamento:</strong> 06/04/2023</p>
+      <p>O padre Gabriele Amorth investiga um caso sombrio de possessão demoníaca na Espanha.</p>
+      <h6>Principais atores</h6>
+      <p>Russell Crowe, Daniel Zovatto, Alex Essoe, Franco Nero</p>
+      <h6>Diretor</h6>
+      <p>Julius Avery</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/h8Fb1nNhq3VYZHjXpZBz2w9qxpL.jpg');">
+    <div class="card-info">
+      <h3>Sorria</h3>
+      <p><strong>Lançamento:</strong> 29/09/2022</p>
+      <p>Após testemunhar um incidente traumático, uma psiquiatra começa a ser perseguida por uma entidade misteriosa.</p>
+      <h6>Principais atores</h6>
+      <p>Sosie Bacon, Kyle Gallner, Jessie T. Usher, Caitlin Stasey</p>
+      <h6>Diretor</h6>
+      <p>Parker Finn</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/iCvgemXf2Kpr2hzEAzYZs3E1JBF.jpg');">
+    <div class="card-info">
+      <h3>Pânico VI</h3>
+      <p><strong>Lançamento:</strong> 09/03/2023</p>
+      <p>Ghostface retorna, e agora a ameaça se espalha para a cidade de Nova York.</p>
+      <h6>Principais atores</h6>
+      <p>Melissa Barrera, Jenna Ortega, Courteney Cox, Hayden Panettiere</p>
+      <h6>Diretor</h6>
+      <p>Matt Bettinelli-Olpin, Tyler Gillett</p>
+    </div>
+    <span class="idade-tag" id="mais18">+18</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/xTvJRaP2lMKaHvGmJn4whgLCJNo.jpg');">
+    <div class="card-info">
+      <h3>Invocação do Mal 3</h3>
+      <p><strong>Lançamento:</strong> 03/06/2021</p>
+      <p>Os Warren enfrentam um dos casos mais difíceis ao investigar um assassinato ligado à possessão demoníaca.</p>
+      <h6>Principais atores</h6>
+      <p>Vera Farmiga, Patrick Wilson, Ruairi O'Connor, Sarah Catherine Hook</p>
+      <h6>Diretor</h6>
+      <p>Michael Chaves</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg');">
+    <div class="card-info">
+      <h3>Noites Brutais</h3>
+      <p><strong>Lançamento:</strong> 22/09/2022</p>
+      <p>Uma jovem descobre que a casa que alugou está ocupada... e que há algo sinistro escondido no porão.</p>
+      <h6>Principais atores</h6>
+      <p>Georgina Campbell, Bill Skarsgård, Justin Long</p>
+      <h6>Diretor</h6>
+      <p>Zach Cregger</p>
+    </div>
+    <span class="idade-tag" id="mais18">+18</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/wYXeoYzO3aKDgLO1P1KEwQlEZ4h.jpg');">
+    <div class="card-info">
+      <h3>It: A Coisa</h3>
+      <p><strong>Lançamento:</strong> 07/09/2017</p>
+      <p>Um grupo de crianças enfrenta uma entidade maligna que assume a forma de um palhaço.</p>
+      <h6>Principais atores</h6>
+      <p>Bill Skarsgård, Jaeden Martell, Finn Wolfhard, Sophia Lillis</p>
+      <h6>Diretor</h6>
+      <p>Andy Muschietti</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/2RYkF6E7Z5Uq4AefN1nA3rLq8Vt.jpg');">
+    <div class="card-info">
+      <h3>A Maldição da Residência Hill</h3>
+      <p><strong>Lançamento:</strong> 12/10/2018</p>
+      <p>Uma família revive os horrores que enfrentou em uma mansão assombrada.</p>
+      <h6>Principais atores</h6>
+      <p>Victoria Pedretti, Oliver Jackson-Cohen, Michiel Huisman, Carla Gugino</p>
+      <h6>Diretor</h6>
+      <p>Mike Flanagan</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+</section>
+
+
+
+
+<h2>Ficção Científica</h2>
+<section class="conteiner conteinerdest cards-wrapper">
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg');">
+    <div class="card-info">
+      <h3>Avatar: O Caminho da Água</h3>
+      <p><strong>Lançamento:</strong> 15/12/2022</p>
+      <p>Jake Sully e Neytiri agora têm filhos e enfrentam uma nova ameaça em Pandora.</p>
+      <h6>Principais atores</h6>
+      <p>Sam Worthington, Zoe Saldaña, Sigourney Weaver, Stephen Lang</p>
+      <h6>Diretor</h6>
+      <p>James Cameron</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg');">
+    <div class="card-info">
+      <h3>Interestelar</h3>
+      <p><strong>Lançamento:</strong> 06/11/2014</p>
+      <p>Exploradores viajam por um buraco de minhoca em busca de um novo lar para a humanidade.</p>
+      <h6>Principais atores</h6>
+      <p>Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine</p>
+      <h6>Diretor</h6>
+      <p>Christopher Nolan</p>
+    </div>
+    <span class="idade-tag" id="mais10">+10</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg');">
+    <div class="card-info">
+      <h3>Duna</h3>
+      <p><strong>Lançamento:</strong> 21/10/2021</p>
+      <p>Paul Atreides precisa sobreviver em um planeta desértico cheio de perigos e conspirações.</p>
+      <h6>Principais atores</h6>
+      <p>Timothée Chalamet, Zendaya, Rebecca Ferguson, Oscar Isaac</p>
+      <h6>Diretor</h6>
+      <p>Denis Villeneuve</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/aMpyrCizvSdc0UIMblJ1srVgAEF.jpg');">
+    <div class="card-info">
+      <h3>Matrix</h3>
+      <p><strong>Lançamento:</strong> 11/06/1999</p>
+      <p>Um hacker descobre que a realidade é uma simulação e lidera uma rebelião contra as máquinas.</p>
+      <h6>Principais atores</h6>
+      <p>Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss</p>
+      <h6>Diretor</h6>
+      <p>Lana Wachowski, Lilly Wachowski</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/yY76zq9XsuJ4nWyPDuwkdV7Wt7y.jpg');">
+    <div class="card-info">
+      <h3>Blade Runner 2049</h3>
+      <p><strong>Lançamento:</strong> 05/10/2017</p>
+      <p>Um novo blade runner descobre um segredo que pode mudar o destino da humanidade.</p>
+      <h6>Principais atores</h6>
+      <p>Ryan Gosling, Harrison Ford, Ana de Armas, Jared Leto</p>
+      <h6>Diretor</h6>
+      <p>Denis Villeneuve</p>
+    </div>
+    <span class="idade-tag" id="mais16">+16</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg');">
+    <div class="card-info">
+      <h3>A Origem</h3>
+      <p><strong>Lançamento:</strong> 16/07/2010</p>
+      <p>Um ladrão especializado em extrair segredos do inconsciente é desafiado a implantar uma ideia.</p>
+      <h6>Principais atores</h6>
+      <p>Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy</p>
+      <h6>Diretor</h6>
+      <p>Christopher Nolan</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg');">
+    <div class="card-info">
+      <h3>Guerra Mundial Z</h3>
+      <p><strong>Lançamento:</strong> 21/06/2013</p>
+      <p>Um ex-investigador da ONU tenta impedir uma pandemia zumbi que ameaça a humanidade.</p>
+      <h6>Principais atores</h6>
+      <p>Brad Pitt, Mireille Enos, Daniella Kertesz, James Badge Dale</p>
+      <h6>Diretor</h6>
+      <p>Marc Forster</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+</section>
+
+
+
+
+<h2>Fantasia</h2>
+<section class="conteiner conteinerdest cards-wrapper">
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/6TCr5A9GQdXb81aGf3uYVwW0CML.jpg');">
+    <div class="card-info">
+      <h3>Harry Potter e a Pedra Filosofal</h3>
+      <p><strong>Lançamento:</strong> 16/11/2001</p>
+      <p>Um menino descobre que é um bruxo e começa seus estudos na Escola de Magia de Hogwarts.</p>
+      <h6>Principais atores</h6>
+      <p>Daniel Radcliffe, Emma Watson, Rupert Grint</p>
+      <h6>Diretor</h6>
+      <p>Chris Columbus</p>
+    </div>
+    <span class="idade-tag" id="mais10">+10</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/8xH2b0pA3bLcmzd4HlRzFGTCmi.jpg');">
+    <div class="card-info">
+      <h3>O Senhor dos Anéis: A Sociedade do Anel</h3>
+      <p><strong>Lançamento:</strong> 19/12/2001</p>
+      <p>Um hobbit embarca numa jornada para destruir um anel poderoso e salvar a Terra Média.</p>
+      <h6>Principais atores</h6>
+      <p>Elijah Wood, Ian McKellen, Viggo Mortensen</p>
+      <h6>Diretor</h6>
+      <p>Peter Jackson</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/2bXbqYdUdNVa8VIWXVfclP2ICtT.jpg');">
+    <div class="card-info">
+      <h3>Frozen II</h3>
+      <p><strong>Lançamento:</strong> 22/11/2019</p>
+      <p>Elsa e Anna partem numa aventura para descobrir a origem dos poderes de Elsa.</p>
+      <h6>Principais atores</h6>
+      <p>Idina Menzel, Kristen Bell, Jonathan Groff</p>
+      <h6>Diretor</h6>
+      <p>Chris Buck, Jennifer Lee</p>
+    </div>
+    <span class="idade-tag" id="livre">L</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/bVqKq3aJppI8X6ETTl3CuFvCgUq.jpg');">
+    <div class="card-info">
+      <h3>As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa</h3>
+      <p><strong>Lançamento:</strong> 09/12/2005</p>
+      <p>Crianças descobrem um guarda-roupa que as transporta para um mundo mágico ameaçado pela Feiticeira Branca.</p>
+      <h6>Principais atores</h6>
+      <p>Georgie Henley, Skandar Keynes, Tilda Swinton</p>
+      <h6>Diretor</h6>
+      <p>Andrew Adamson</p>
+    </div>
+    <span class="idade-tag" id="mais10">+10</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/2vtYinbCWqTxF5sy3GFX5srlv3C.jpg');">
+    <div class="card-info">
+      <h3>Stardust - O Mistério da Estrela</h3>
+      <p><strong>Lançamento:</strong> 10/08/2007</p>
+      <p>Um jovem atravessa um reino mágico para capturar uma estrela cadente e conquistar seu amor.</p>
+      <h6>Principais atores</h6>
+      <p>Charlie Cox, Claire Danes, Michelle Pfeiffer</p>
+      <h6>Diretor</h6>
+      <p>Matthew Vaughn</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/7gp5J6sP1yQIGhSwb8EnCrEYu58.jpg');">
+    <div class="card-info">
+      <h3>O Labirinto do Fauno</h3>
+      <p><strong>Lançamento:</strong> 29/09/2006</p>
+      <p>Durante a Guerra Civil Espanhola, uma menina descobre um mundo mágico assustador.</p>
+      <h6>Principais atores</h6>
+      <p>Ivana Baquero, Sergi López, Maribel Verdú</p>
+      <h6>Diretor</h6>
+      <p>Guillermo del Toro</p>
+    </div>
+    <span class="idade-tag" id="mais14">+14</span>
+  </div>
+
+  <div class="card" style="background-image: url('https://image.tmdb.org/t/p/w500/wvLn6hF6aIxQISlj24nJ5QmLQeK.jpg');">
+    <div class="card-info">
+      <h3>Malévola</h3>
+      <p><strong>Lançamento:</strong> 29/05/2014</p>
+      <p>A história da fada Malévola, mostrando sua versão da clássica "Bela Adormecida".</p>
+      <h6>Principais atores</h6>
+      <p>Angelina Jolie, Elle Fanning, Sharlto Copley</p>
+      <h6>Diretor</h6>
+      <p>Robert Stromberg</p>
+    </div>
+    <span class="idade-tag" id="mais12">+12</span>
+  </div>
+
+</section>
+
+
+
+
+
+<footer>
+<div class="footer">
+  <div class="icones">
+    <a href="#"><i class="fa-brands fa-facebook  icones "></i> </a>
+    <a href="#"><i class="fa-brands fa-instagram icones "></i></a>
+    <a href="#"><i class="fa-brands fa-x-twitter icones"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube icones "></i></a>
+  </div> 
+  </div>
+  <div class="footerfim">
+    <p> Feito com amor por Ana Paula, Rafael e  Daniel </p>
+  </div>
+</footer>
+  </body>
+</html>
